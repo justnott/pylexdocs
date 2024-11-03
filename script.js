@@ -1,27 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
     const contentDiv = document.getElementById('content');
+    const fileInput = document.getElementById('fileInput');
 
     function loadContent() {
         const hash = window.location.hash.substring(1) || 'home';
         console.log(`Loading document: ${hash}.md`);
-        
-        const xhr = new XMLHttpRequest();
-        xhr.open('GET', `docs/${hash}.md`, true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4) {
-                if (xhr.status === 200) {
-                    contentDiv.innerHTML = marked(xhr.responseText);
-                } else {
-                    console.error(`Error: ${xhr.status} - ${xhr.statusText}`);
-                    contentDiv.innerHTML = '<h1>404 - Document Not Found</h1>';
-                }
-            }
+
+        const filePath = `docs/${hash}.md`;
+        const file = new File([filePath], filePath, { type: "text/markdown" });
+
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            contentDiv.innerHTML = marked(event.target.result);
         };
-        xhr.onerror = function() {
-            console.error('Network error');
+        reader.onerror = function() {
+            console.error('Error reading file');
             contentDiv.innerHTML = '<h1>404 - Document Not Found</h1>';
         };
-        xhr.send();
+
+        reader.readAsText(file);
     }
 
     window.addEventListener('hashchange', loadContent);
