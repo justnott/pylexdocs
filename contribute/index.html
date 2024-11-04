@@ -67,7 +67,7 @@
     <p>You are only permitted to submit tutorials, how to use a Pylex feature, how to fix a problem, etc.</p>
     <p><em>YOU ARE NOT PERMITTED TO SHARE CODING TIPS OR TUTORIALS.</em></p>
     
-    <form action="https://send.pageclip.co/y2yK9zrCF930Pzwg7g1kTJKR7InTZQHd/insider-ss" class="pageclip-form" method="post">
+    <form action="https://send.pageclip.co/y2yK9zrCF930Pzwg7g1kTJKR7InTZQHd/insider-ss" class="pageclip-form" method="post" onsubmit="syncMarkdownContent()">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         
@@ -75,7 +75,7 @@
         <input type="text" id="title" name="title" required>
         
         <label for="markdown">Markdown:</label>
-        <textarea id="markdown" name="markdown" rows="5"></textarea>
+        <textarea id="markdown" name="markdown" rows="5" style="display:none;"></textarea>
         
         <button type="submit" class="pageclip-form__submit">
             <span>Send</span>
@@ -85,10 +85,11 @@
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
     <script>
-        var simplemde = new SimpleMDE({ 
-            element: document.getElementById("markdown"),
-            autofocus: true 
-        });
+        var simplemde = new SimpleMDE({ element: document.getElementById("markdown") });
+
+        function syncMarkdownContent() {
+            document.getElementById("markdown").value = simplemde.value();
+        }
     </script>
 </body>
 </html>
