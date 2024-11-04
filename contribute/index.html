@@ -5,60 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contribute | pylexdocs</title>
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
     <style>
-        
         /* Base styles */
-      body {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-          line-height: 1.5;
-          background-color: #ffffff;
-          color: #24292e;
-          margin: 0;
-          padding: 16px;
-      }
-      
-      /* Title */
-      h1 {
-          font-size: 2em;
-          font-weight: 600;
-          margin: 24px 0 16px;
-          border-bottom: 1px solid #eaecef;
-          padding-bottom: 0.3em;
-      }
-      
-      /* Paragraph */
-      p {
-          margin: 1em 0;
-      }
-      
-      /* Form */
-      form {
-          margin-top: 16px;
-      }
-      
-      form input[type="text"],
-      form input[type="email"],
-      form textarea {
-          width: 100%;
-          padding: 8px;
-          margin: 8px 0;
-          border: 1px solid #d1d5da;
-          border-radius: 6px;
-          box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
-      }
-      
-      form input[type="submit"] {
-          background-color: #28a745;
-          color: #ffffff;
-          padding: 10px 20px;
-          border: none;
-          border-radius: 6px;
-          cursor: pointer;
-      }
-      
-      form input[type="submit"]:hover {
-          background-color: #218838;
-      }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.5;
+            background-color: #ffffff;
+            color: #24292e;
+            margin: 0;
+            padding: 16px;
+        }
+
+        /* Title */
+        h1 {
+            font-size: 2em;
+            font-weight: 600;
+            margin: 24px 0 16px;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+        }
+
+        /* Paragraph */
+        p {
+            margin: 1em 0;
+        }
+
+        /* Form */
+        form {
+            margin-top: 16px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+        }
+
+        form input[type="submit"] {
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #218838;
+        }
     </style>
 </head>
 <body>
@@ -67,9 +67,7 @@
     <p>You are only permitted to submit tutorials, how to use a Pylex feature, how to fix a problem, etc.</p>
     <p><em>YOU ARE NOT PERMITTED TO SHARE CODING TIPS OR TUTORIALS.</em></p>
     
-<form action="https://send.pageclip.co/y2yK9zrCF930Pzwg7g1kTJKR7InTZQHd/insider-ss" class="pageclip-form" method="post">
-  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-    
+    <form action="https://send.pageclip.co/y2yK9zrCF930Pzwg7g1kTJKR7InTZQHd/insider-ss" class="pageclip-form" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         
@@ -79,14 +77,15 @@
         <label for="markdown">Markdown:</label>
         <textarea id="markdown" name="markdown" rows="5" required></textarea>
         
-          <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-  <button type="submit" class="pageclip-form__submit">
-    <span>Send</span>
-  </button>
-</form>
+        <button type="submit" class="pageclip-form__submit">
+            <span>Send</span>
+        </button>
+    </form>
 
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <script>
+        var simplemde = new SimpleMDE({ element: document.getElementById("markdown") });
+    </script>
 </body>
-
-    
 </html>
