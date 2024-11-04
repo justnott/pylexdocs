@@ -67,7 +67,7 @@
     <p>You are only permitted to submit tutorials, how to use a Pylex feature, how to fix a problem, etc.</p>
     <p><em>YOU ARE NOT PERMITTED TO SHARE CODING TIPS OR TUTORIALS.</em></p>
     
-    <form action="https://send.pageclip.co/y2yK9zrCF930Pzwg7g1kTJKR7InTZQHd/insider-ss" class="pageclip-form" method="post" onsubmit="syncMarkdownContent()">
+    <form action="https://send.pageclip.co/y2yK9zrCF930Pzwg7g1kTJKR7InTZQHd/insider-ss" class="pageclip-form" method="post" onsubmit="return syncMarkdownContent()">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         
@@ -89,6 +89,7 @@
 
         function syncMarkdownContent() {
             document.getElementById("markdown").value = simplemde.value();
+            return true; // Ensure the form submits
         }
     </script>
 </body>
