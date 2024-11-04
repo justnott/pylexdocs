@@ -78,14 +78,17 @@
         <textarea id="markdown" name="markdown" rows="5" required></textarea>
         
         <button type="submit" class="pageclip-form__submit">
-            <span>Submit</span>
+            <span>Send</span>
         </button>
     </form>
 
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
     <script>
-        var simplemde = new SimpleMDE({ element: document.getElementById("markdown") });
+        var simplemde = new SimpleMDE({ 
+            element: document.getElementById("markdown"),
+            autofocus: true 
+        });
     </script>
 </body>
 </html>
