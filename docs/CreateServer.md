@@ -6,7 +6,7 @@
 Head to the Pylex [Client](https://docs.coopr.tech/docs/PylexClient).
 
 ## Step 2
-[img login]
+![img login](img/IMG_6342.jpg)
 Login to the client if you haven't already.
 
 Remember to click authorize when the Discord page opens.
