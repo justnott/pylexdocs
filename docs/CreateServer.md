@@ -14,7 +14,7 @@ Remember to click authorize when the Discord page opens.
 
 ## Step 3
 On the side bar, look for the "Create a new server" button. (Highlighted in the photo)
-![img sidebar](/img/IMG_6344.jpeg)
+![img sidebar](/img/IMG_6345.jpeg)
 
 ## Step 4
 Create a name for your server! This can be anything you want, and is only visible to you!
@@ -23,7 +23,7 @@ Similarly, you can choose what [egg](https://docs.coopr.tech/docs/Egg) you want 
 
 If the create server button at the bottom doesn't work, try clicking Free again, or the egg again.
 
-![img sidebar](/img/IMG_6345.jpeg)
+![img sidebar](/img/IMG_6346.jpeg)
 
 
 ## Step 5
