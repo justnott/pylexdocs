@@ -10,11 +10,11 @@ Head to the Pylex [Client](https://docs.coopr.tech/docs/PylexClient).
 Login to the client if you haven't already.
 
 Remember to click authorize when the Discord page opens.
-[img auth]
+![img auth](/img/IMG_6343.jpeg)
 
 ## Step 3
 On the side bar, look for the "Create a new server" button. (Highlighted in the photo)
-[img create]
+![img sidebar](/img/IMG_6344.jpeg)
 
 ## Step 4
 Create a name for your server! This can be anything you want, and is only visible to you!
@@ -22,6 +22,9 @@ Create a name for your server! This can be anything you want, and is only visibl
 Similarly, you can choose what [egg](https://docs.coopr.tech/docs/Egg) you want your server to use.
 
 If the create server button at the bottom doesn't work, try clicking Free again, or the egg again.
+
+![img sidebar](/img/IMG_6345.jpeg)
+
 
 ## Step 5
 Et voila!
