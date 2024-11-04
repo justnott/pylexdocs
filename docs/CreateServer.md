@@ -1,4 +1,6 @@
 # How to Create a Server
+#### Last edited by justnott on November 3, 2024
+
 
 ## Step 1
 Head to the Pylex [Client](https://docs.coopr.tech/docs/PylexClient).
@@ -25,5 +27,3 @@ If the create server button at the bottom doesn't work, try clicking Free again,
 Et voila!
 
 Your new server will be ready in about 1-2 minutes! Then, you can go straight to your new game hosting server!
-
--# Last edited by justnott on November 3, 2024
