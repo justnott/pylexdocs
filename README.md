@@ -12,8 +12,10 @@ This website was not created nor endorsed by anyone representing Pylex.
 ### 1.2.1 Pylex Client
 
 #### 1.2.1.1 Pylex Client Page
+- [Pylex Client](https://docs.coopr.tech/docs/PylexClient)
 - [How to create a server](https://docs.coopr.tech/docs/CreateServer)
 - [Server Eggs](https://docs.coopr.tech/docs/Egg)
+- [Delete Account](https://docs.coopr.tech/docs/DeleteAccount)
 
 #### 1.2.1.2 Pylex Free Panel
 - [Installing Packages](https://docs.coopr.tech/docs/Packages)
