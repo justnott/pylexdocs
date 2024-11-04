@@ -18,6 +18,8 @@ This website was not created nor endorsed by anyone representing Pylex.
 #### 1.2.1.2 Pylex Free Panel
 - [Installing Packages](https://docs.coopr.tech/docs/Packages)
 - [Module Not Found Error](https://docs.coopr.tech/docs/ModuleNotFound)
+- [Abooz Bot](https://docs.coopr.tech/docs/Abooz)
+- [Rate Limits](https://docs.coopr.tech/docs/RateLimits)
 
 #### 1.2.1.3 Pylex Pro Panel
 - [Installing Packages](https://docs.coopr.tech/docs/Packages)
