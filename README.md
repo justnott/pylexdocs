@@ -7,6 +7,12 @@ This website is meant to be a simple solution for quick help when you need it mo
 
 This website was not created nor endorsed by anyone representing Pylex.
 
+### Contributors Welcomed!
+
+Anyone can contribute easily in a few steps!
+
+Head to our contribute page found [here](https://docs.coopr.tech/contribute/) to add your own tutorial/documentation!
+
 ## 1.2 Approved Documents
 
 ### 1.2.1 Pylex Client
