@@ -1,19 +1,17 @@
 # How do I know when I'm Rate Limited?
-Last edited by justnott on November 4, 2024
+Last edited by mynameisbob1928 on November 10, 2024
 
 Rate limits occur when people on your node have exhausted Discord's API server. This typically occurs most with nodes that have other people using Self Bots.
 
-## How can I fix a Rate Limit?
+## How do I know if my bot is on a rate limited node?
+If your bot is not showing as ready in the console (NodeJS), or you are getting an error that mentions error 429, *or* the bot is not responding to commands or other events it should be then this is likely a rate limit.
+There is also a Cloudflare rate limit which looks like a bunch of HTML code but we still cannot do anything about that either.
 
-Short answer; you can't
+## What can I do about it?
+There isn’t much you can do. All you can really do is buy a Premium plan (they’re very cheap 😉). Other than that, you’ll just have to wait for it to be over.
 
-Typically you must wait 2-12 hours for a Pylex server admin to change the IP address of a node. To reduce rate limits, don't break the rules!
+## When will the rate limit be over?
+Rate limits can last from minutes to hours and rarely a few days. If it is over a day we will usually do something to mitigate it but it is not guaranteed.
 
-## How do I know when I'm Rate Limited?
-
-The easy answer, when you see an error along the lines of:
-
-```discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.```
-
-If you see this, that's it!
-Your node has been rate limited, and can take up to 12 hours to fix.
+## What caused the rate limit?
+Rate limits on Pylex are usually caused by other users who make some sort of bot or selfbot which makes many requests to discord and Discord’s API blocks the node's IP as a whole which then blocks any connections/requests from the node. 
