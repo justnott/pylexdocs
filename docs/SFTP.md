@@ -1,5 +1,5 @@
 # How to Connect to SFTP
-## Last edited by notanerd31 on December 4, 2024
+Last edited by notanerd31 on December 4, 2024
 
 ## So, when the servers are offline. You are going crazy because you can't access your folders, so what to do?
 
@@ -28,7 +28,7 @@ It is recommended to put `uploadOnSave` to `true`, it will update the server aut
 6. To edit a file in local, right click the file you want to edit then click `Edit in local`
 7. Everytime you save the file, the file will be updated in your server.
 
-Now you're done! Happy coding 🔥
-If you have any questions, feel free to ask me!
+Now you're done! Happy coding! 🔥
+If you have any questions, feel free to ask around on the [support](https://discord.gg/xF7F7NJ7hY) Discord server!
 
 **SFTP extension link: https://marketplace.visualstudio.com/items?itemName=Natizyskunk.sftp**
